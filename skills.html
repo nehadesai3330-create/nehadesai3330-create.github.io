@@ -2,17 +2,50 @@
 <html>
 <head>
 <title>Skills</title>
+
+<style>
+body{background:#0f172a;color:white;font-family:Segoe UI;}
+nav{background:#111827;padding:20px 8%;display:flex;justify-content:space-between;}
+.logo{color:#38bdf8;font-size:28px;font-weight:bold;}
+ul{display:flex;list-style:none;gap:20px;}
+a{color:white;text-decoration:none;}
+a:hover{color:#38bdf8;}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:60px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+h1{text-align:center;color:#38bdf8;margin-top:30px;}
+</style>
 </head>
 
 <body>
 
-<h1>SKILLS PAGE WORKING</h1>
+<nav>
+<div class="logo">Neha Desai</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+</ul>
+</nav>
 
-<p>Power BI</p>
-<p>Python</p>
-<p>SQL</p>
+<h1>Skills</h1>
 
-<a href="index.html">Home</a>
+<div class="grid">
+<div class="card">Power BI</div>
+<div class="card">Python</div>
+<div class="card">SQL</div>
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+</div>
 
 </body>
 </html>
