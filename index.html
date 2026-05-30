@@ -4,14 +4,52 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Neha Desai | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif;}
+
+body{background:#0f172a;color:white;}
+
+nav{
+background:#111827;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{font-size:28px;font-weight:bold;color:#38bdf8;}
+
+ul{display:flex;list-style:none;gap:20px;}
+
+a{text-decoration:none;color:white;}
+a:hover{color:#38bdf8;}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+border-radius:10px;
+font-weight:bold;
+text-decoration:none;
+}
+</style>
 </head>
 
 <body>
 
 <nav>
 <div class="logo">Neha Desai</div>
-
 <ul>
 <li><a href="about.html">About</a></li>
 <li><a href="skills.html">Skills</a></li>
@@ -24,12 +62,10 @@
 </nav>
 
 <div class="hero">
-<h1>Hi, I'm <span>Neha Desai</span></h1>
-<p>Computer Engineering Student | Power BI | Python | AI | Web Development</p>
+<h1>Hi, I'm Neha Desai</h1>
+<p>Computer Engineering Student | Power BI | Python | AI</p>
 
-<a href="resume.pdf" class="btn" target="_blank">
-Download Resume
-</a>
+<a class="btn" href="resume.pdf" target="_blank">Download Resume</a>
 </div>
 
 </body>
